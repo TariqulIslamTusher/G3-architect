@@ -309,10 +309,6 @@ header .container .navbar .right-menu ul{
     margin-top: 20px;
 }
 
-.contact address ul li i{
-    color: var(--dark-one);
-    font-size: 25px;
-}
 
 
 .contact form{
@@ -519,11 +515,7 @@ header .container .navbar .right-menu ul{
     .contact form textarea {
         width: 255px;
     }
-    .contact address ul li i {
-        color: var(--dark-one);
-        font-size: 18px;
-        font-weight: 400;
-    }
+
     .footer-bg h5 {
         font-size: 14px;
         width: 80%;
