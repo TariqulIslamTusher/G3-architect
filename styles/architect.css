@@ -294,7 +294,23 @@ header .container .navbar .right-menu ul{
     align-items: center;
     justify-content: space-evenly;
 }
-
+#h2{
+    border-bottom: 3px solid #ff4a0e;
+    position: relative;
+}
+#h2::after{
+    content: "";
+    border-bottom: 5px solid #ff4a0e;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .7s;
+}
+#h2:hover::after{
+    width:100%;
+}
 .contact address h5{
     color: var(--btn-color);
     margin-bottom: 10px;
