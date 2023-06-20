@@ -285,7 +285,13 @@ header .container .navbar .right-menu ul{
 .sponsor .sponsor-logo img{
     padding: 20px 50px;
     filter: grayscale(1);
+    transition: 2s;
+
 }
+.sponsor .sponsor-logo img:hover{
+    filter: grayscale(0);  
+}
+
 
 /* Contact Form
 --------------- */
